@@ -70,6 +70,7 @@ color: red;
 .list-inline > li {
   display: inline; /* change list item behavior to inline */
   padding: 0px 20px; /* add som left/right padding between list items */
+  font-size: 150px;
 }
 
 .card_white{ 
