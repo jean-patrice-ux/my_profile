@@ -1,0 +1,128 @@
+
+h1{
+	color : green;
+	font-size: 60px;
+	font-family: 'Aguafina Script', cursive;
+	text-align: center;
+	align-content: center;
+
+}
+body{
+	color : blue;
+	font-weight: lighter;
+	text-align: justify;
+
+}
+h2{
+	color : red;
+	text-align: center;
+}
+
+div{ 
+	text-align: center
+}
+
+
+
+#logo { /* select the element with the id="logo" */
+  width: 400px;
+}
+
+#header { /* select the element with the id="logo" */
+  width: 500px;
+  /*background : red;*/
+  text-align: center;
+}
+
+#button-darkblue-box
+{
+	padding-top: 20px
+	padding-bottom:20px;
+}
+
+#vfr{
+
+}
+
+.img_circle{border-radius: 50%; }
+
+.img_socialnetwork{border-radius: 50%;}
+
+.button-dark-blue{
+border: 10px solid blue;
+background-color: blue;
+padding: 10px 20px
+border-radius:10px;
+color: white;
+opacity: 0,8;
+box-shadow: 0px 0px 0px 0px;
+}
+
+.button-dark-blue:hover{
+color: red;
+
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+  font-size: 150px;
+}
+
+.card_white{ 
+	background: white;                         /* White background */
+	padding: 30px;                             /* Internal space */
+	border-radius: 4px;                        /* Small radius */
+	/*box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+	margin: 10px auto; /* Let CSS compute the same left & right margins automatically*/
+	box-shadow: 2px 2px 3px red; /* horizontal-shift vertical-shift blur color */
+	text-align: center;
+}
+
+.container{
+background-color: blue;
+}
+
+@media (max-width: 1024px) {
+	  #vfr{
+  	width:600px
+  }
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+   background-color: red;
+  }
+  .list-in-line{
+  	font-size: 150px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+    background-color: purple;
+  }
+  .list-in-line{
+  	font-size:100px;
+  }
+  #vfr{
+  	width:300px
+  }
+}
+@media (max-width: 414px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    background-color: green;
+  }
+    .list-in-line{
+  	font-size: 50px;
+  }
+    #vfr{
+  	width:100px
+  }
+}
