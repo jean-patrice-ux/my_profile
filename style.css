@@ -10,7 +10,7 @@ h1{
 body{
 	color : blue;
 	font-weight: lighter;
-	text-align: justify;
+/*	text-align: justify;*/
 
 }
 h2{
@@ -18,9 +18,6 @@ h2{
 	text-align: center;
 }
 
-div{ 
-	text-align: center
-}
 
 
 
@@ -42,6 +39,12 @@ div{
 
 #vfr{
 
+}
+
+#map{
+	width: 600px;
+	height: 300px;
+	margin: 0px auto;
 }
 
 .img_circle{border-radius: 50%; }
