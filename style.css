@@ -70,7 +70,6 @@ color: red;
 .list-inline > li {
   display: inline; /* change list item behavior to inline */
   padding: 0px 20px; /* add som left/right padding between list items */
-  font-size: 150px;
 }
 
 .card_white{ 
@@ -96,7 +95,7 @@ background-color: blue;
     width: 700px;
    background-color: red;
   }
-  .list-in-line{
+ .list-inline > li{
   	font-size: 150px;
   }
 }
@@ -106,7 +105,7 @@ background-color: blue;
     width: 400px;
     background-color: purple;
   }
-  .list-in-line{
+  .list-inline > li{
   	font-size:100px;
   }
   #vfr{
@@ -119,7 +118,7 @@ background-color: blue;
     width: 300px;
     background-color: green;
   }
-    .list-in-line{
+    .list-inline > li{
   	font-size: 50px;
   }
     #vfr{
