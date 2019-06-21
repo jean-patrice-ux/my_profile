@@ -45,6 +45,7 @@ h2{
 	width: 600px;
 	height: 300px;
 	margin: 0px auto;
+	text-align: justify;
 }
 
 .img_circle{border-radius: 50%; }
@@ -99,6 +100,10 @@ color: black;
 	margin: 10px auto; /* Let CSS compute the same left & right margins automatically*/
 	box-shadow: 2px 2px 3px red; /* horizontal-shift vertical-shift blur color */
 	text-align: center;
+}
+
+.img_medium{
+	width: 100px;
 }
 
 .container{
